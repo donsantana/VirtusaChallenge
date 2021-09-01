@@ -82,6 +82,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
+                <outlet property="addressText" destination="zS9-Sq-PLX" id="Iao-9D-Heo"/>
                 <outlet property="dataContentView" destination="ZPW-Il-xBA" id="Xtb-tP-VPT"/>
                 <outlet property="neighborhoodText" destination="JlD-Uz-bhs" id="CrF-c5-AgW"/>
                 <outlet property="schoolNameText" destination="X7N-o6-5eu" id="IsY-gU-vg1"/>
