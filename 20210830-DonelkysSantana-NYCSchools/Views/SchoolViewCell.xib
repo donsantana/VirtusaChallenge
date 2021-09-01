@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="SchoolCell" id="iN0-l3-epB" customClass="SchoolCell" customModule="_0210930_DonelkysSantana_NYCSchools" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPW-Il-xBA">
+                    <rect key="frame" x="5" y="5" width="404" height="90"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X7N-o6-5eu">
+                            <rect key="frame" x="20" y="5" width="379" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="qsa-Mr-OBd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Neighborhood" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlD-Uz-bhs">
+                            <rect key="frame" x="20" y="31" width="379" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="nQg-Kc-Kxp"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zS9-Sq-PLX">
+                            <rect key="frame" x="20" y="60" width="379" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="c4w-8Z-uj1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nextIcon" translatesAutoresizingMaskIntoConstraints="NO" id="3bp-qK-LMW">
+                            <rect key="frame" x="364" y="32.5" width="25" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="3bp-qK-LMW" secondAttribute="height" multiplier="1:1" id="Abq-4b-Olf"/>
+                                <constraint firstAttribute="height" constant="25" id="YGs-7N-rGe"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="X7N-o6-5eu" secondAttribute="trailing" constant="5" id="4jl-dK-xEW"/>
+                        <constraint firstItem="JlD-Uz-bhs" firstAttribute="leading" secondItem="X7N-o6-5eu" secondAttribute="leading" id="5jr-45-Vqv"/>
+                        <constraint firstItem="3bp-qK-LMW" firstAttribute="centerY" secondItem="ZPW-Il-xBA" secondAttribute="centerY" id="Nm4-nh-rJd"/>
+                        <constraint firstItem="X7N-o6-5eu" firstAttribute="top" secondItem="ZPW-Il-xBA" secondAttribute="top" constant="5" id="OsV-Zx-ENy"/>
+                        <constraint firstItem="JlD-Uz-bhs" firstAttribute="trailing" secondItem="X7N-o6-5eu" secondAttribute="trailing" id="QjG-gb-f2G"/>
+                        <constraint firstItem="zS9-Sq-PLX" firstAttribute="leading" secondItem="JlD-Uz-bhs" secondAttribute="leading" id="SeX-tE-MmF"/>
+                        <constraint firstItem="JlD-Uz-bhs" firstAttribute="top" secondItem="X7N-o6-5eu" secondAttribute="bottom" constant="5" id="WRR-ja-4SC"/>
+                        <constraint firstItem="X7N-o6-5eu" firstAttribute="leading" secondItem="ZPW-Il-xBA" secondAttribute="leading" constant="20" id="aQa-vf-bON"/>
+                        <constraint firstAttribute="trailing" secondItem="3bp-qK-LMW" secondAttribute="trailing" constant="15" id="bMT-ad-CyU"/>
+                        <constraint firstItem="zS9-Sq-PLX" firstAttribute="top" secondItem="JlD-Uz-bhs" secondAttribute="bottom" constant="8" symbolic="YES" id="fiD-rb-oak"/>
+                        <constraint firstItem="zS9-Sq-PLX" firstAttribute="trailing" secondItem="JlD-Uz-bhs" secondAttribute="trailing" id="gPx-9F-JOm"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.CornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="ZPW-Il-xBA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="5" id="P6D-kf-K9I"/>
+                <constraint firstItem="ZPW-Il-xBA" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" constant="-5" id="UTY-o6-a6C"/>
+                <constraint firstItem="ZPW-Il-xBA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="u96-ty-D20"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="ZPW-Il-xBA" secondAttribute="trailing" constant="5" id="zzM-Lw-oMf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dataContentView" destination="ZPW-Il-xBA" id="Xtb-tP-VPT"/>
+                <outlet property="neighborhoodText" destination="JlD-Uz-bhs" id="CrF-c5-AgW"/>
+                <outlet property="schoolNameText" destination="X7N-o6-5eu" id="IsY-gU-vg1"/>
+            </connections>
+            <point key="canvasLocation" x="18.840579710144929" y="-137.27678571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="nextIcon" width="40" height="40"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
