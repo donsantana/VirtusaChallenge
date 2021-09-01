@@ -28,6 +28,8 @@
 		C64578E826DE780F00F11C56 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64578E726DE780F00F11C56 /* UIView.swift */; };
 		C64578EB26DE7B5200F11C56 /* Responsive.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64578EA26DE7B5200F11C56 /* Responsive.swift */; };
 		C64578ED26DEB9F400F11C56 /* SATScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64578EC26DEB9F400F11C56 /* SATScore.swift */; };
+		C6FCEF5926DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEF5726DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png */; };
+		C6FCEF5A26DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png in Resources */ = {isa = PBXBuildFile; fileRef = C6FCEF5826DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png */; };
 		E8FD88361C9F02894837F479 /* Pods_20210830_DonelkysSantana_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BD6DDF427CBE770EC19DCF /* Pods_20210830_DonelkysSantana_NYCSchools.framework */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +89,8 @@
 		C64578E726DE780F00F11C56 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		C64578EA26DE7B5200F11C56 /* Responsive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Responsive.swift; sourceTree = "<group>"; };
 		C64578EC26DEB9F400F11C56 /* SATScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SATScore.swift; sourceTree = "<group>"; };
+		C6FCEF5726DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png"; sourceTree = "<group>"; };
+		C6FCEF5826DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png"; sourceTree = "<group>"; };
 		D7C4591B5AC801E141CC0849 /* Pods-20210830-DonelkysSantana-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210830-DonelkysSantana-NYCSchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-20210830-DonelkysSantana-NYCSchoolsTests/Pods-20210830-DonelkysSantana-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F0844FFB6B4A3629F589DB5C /* Pods-20210830-DonelkysSantana-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20210830-DonelkysSantana-NYCSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-20210830-DonelkysSantana-NYCSchoolsTests/Pods-20210830-DonelkysSantana-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -173,6 +177,7 @@
 		C64578A026DD3F0700F11C56 /* 20210830-DonelkysSantana-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				C6FCEF5626DFDCA500F6C97D /* Images */,
 				C64578E926DE7B3700F11C56 /* Utils */,
 				C64578E626DE77E700F11C56 /* Extensions */,
 				C64578D526DD431E00F11C56 /* GlobalVariables */,
@@ -285,6 +290,15 @@
 			path = "School Details";
 			sourceTree = "<group>";
 		};
+		C6FCEF5626DFDCA500F6C97D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6FCEF5726DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png */,
+				C6FCEF5826DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -393,8 +407,10 @@
 			files = (
 				C64578AE26DD3F0F00F11C56 /* LaunchScreen.storyboard in Resources */,
 				C64578AB26DD3F0F00F11C56 /* Assets.xcassets in Resources */,
+				C6FCEF5926DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.20.png in Resources */,
 				C64578E126DDE9C400F11C56 /* SchoolViewCell.xib in Resources */,
 				C64578A926DD3F0700F11C56 /* Main.storyboard in Resources */,
+				C6FCEF5A26DFDCC400F6C97D /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-09-01 at 10.59.26.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
